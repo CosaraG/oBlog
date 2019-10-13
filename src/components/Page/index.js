@@ -11,7 +11,7 @@ import HomePage from 'src/components/HomePage';
 
 // == Composant
 const Page = () => (
-  <div id="app">
+  <div id="page">
     <Switch>
       <Route exact path="/" component={HomePage} />
       <Route exact path="/categories" component={Categories} />

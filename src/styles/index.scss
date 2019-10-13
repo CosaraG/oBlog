@@ -2,13 +2,6 @@
 @import 'vars';
 
 body {
-  font-family: $main-font;
-  font-size: $font-size-default;
-  @include respondTo(wide-phones) {
-    font-size: $font-size-resp;
-  }
-  @include respondTo(phones) {
-    font-size: $font-size-resp;
-  }
+
   
 }

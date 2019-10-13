@@ -1,5 +1,17 @@
+@import 'src/styles/reset';
+@import 'src/styles/vars';
+
 #app {
-  font-size: 1.2em;
-  text-align: center;
   margin: 1em;
+  padding: 2em 4em 1em 5em;
+  font-family: $main-font;
+  font-size: 18px;
+  border: 14px solid $main-color;
+    
+  @include respondTo(wide-phones) {
+    font-size: $font-size-resp;
+  }
+  @include respondTo(phones) {
+    font-size: $font-size-resp;
+  }
 }
