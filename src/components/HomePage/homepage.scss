@@ -33,16 +33,15 @@
 
     &-title {
       width: 80%;
-      z-index: 2;
-
       h1 {
+        position: relative;
         z-index: 2;
         font-size: 3em;
         font-weight: 700;
         text-decoration: underline;
         text-decoration-color: $main-color;
         box-sizing: border-box;
-        margin-bottom: 1em;
+        margin-bottom: .5em;
       }
       .pageRight-author {
         font-size: .7em;
@@ -51,22 +50,19 @@
     }
     &-content {
       display: flex;
-      //justify-content: space-between;
-      z-index: 1;
       &-article {
-        width: 45%;
+        width: 48%;
         padding: 2em 2em 0 3em;
         line-height: 2em;
       }
       &-image {
-        width: 40%;
-        z-index: 1;
+        width: 45%;
         img {
         width: 100%;
         border-radius: 50%;
         position: relative;
-        top: -110px;
-        z-index: 1;
+        top: -190px;
+        filter: grayscale(100%);
         }
       }
     }
